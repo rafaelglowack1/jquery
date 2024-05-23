@@ -6,8 +6,25 @@
 }
 header {
     background-color: crimson;
-    text-align: center;
-    color: aliceblue;
-    font-size: larger;
     
+    font-size: larger;
+    margin-bottom: 8px;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    width: 800px;
+    
+}
+    
+    
+
+header h1{
+    margin-right: 30px;
+     color: aliceblue;
+     text-align: center;
+}
+section{
+    margin: auto;
+    margin-top: 12px;
+    width: 800px;
 }
