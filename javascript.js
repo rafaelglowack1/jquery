@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $('botHeader').click(function(){
-        alert('vammoooo')
+    $('#botheader').click(function() {
+        $('#formulario').slideDown();
     })
 
 })

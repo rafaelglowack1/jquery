@@ -28,3 +28,21 @@ section{
     margin-top: 12px;
     width: 800px;
 }
+form{
+    background-color: rgba(158, 45, 45, 0.349);
+    height: 100px;
+    display: none;
+}
+form input{
+    padding: 12px;
+    margin: 20px;
+}
+form button {
+    padding: 4px;
+    background-color: rgba(4, 155, 4, 0.795);
+    border: none;
+    color: aliceblue;
+}
+#canc{
+    background-color: rgba(190, 0, 0, 0.781)
+}
