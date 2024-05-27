@@ -46,3 +46,50 @@ form button {
 #canc{
     background-color: rgba(190, 0, 0, 0.781)
 }
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    width:800px;
+    margin: auto;
+    
+}
+ul li {
+    position: relative; 
+    max-width: 45%;
+    list-style: none;
+    max-height: 150px;
+    border-radius: 18px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    overflow-y: hidden;
+}
+li{
+    
+    
+}
+ul li img {
+    width: 100%;
+   
+    
+}
+a{
+    text-decoration: none;
+    font-size: medium;
+    color: aliceblue;
+    margin-left: 8px;
+}
+.texto{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    padding: 16px 0px;
+    background-color: rgba(0, 0, 0, 0.438);
+    transition: all ease .5s;
+}
+ul li:hover .texto{
+    opacity: 1;
+
+}
