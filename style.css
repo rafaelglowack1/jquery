@@ -13,7 +13,7 @@ header {
     display: flex;
     margin: auto;
     width: 800px;
-    
+    box-shadow: 5px 4px  12px rgba(0, 0, 0, 0.274);
 }
     
     
@@ -22,6 +22,7 @@ header h1{
     margin-right: 30px;
      color: aliceblue;
      text-align: center;
+     
 }
 section{
     margin: auto;
@@ -32,6 +33,8 @@ form{
     background-color: rgba(158, 45, 45, 0.349);
     height: 100px;
     display: none;
+    width: 800px;
+    margin: auto;
 }
 form input{
     padding: 12px;
